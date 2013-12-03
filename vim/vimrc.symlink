@@ -1,4 +1,27 @@
 syntax on
-
-" Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+set nocompatible
+set autoindent
+set autoread
+set backspace=2
+set clipboard=unnamed
+set directory-=.
+set encoding=utf-8
+set expandtab
+set ignorecase
+set incsearch
+set laststatus=2
+set list
+set listchars=tab:▸\ ,trail:·,extends:❯,precedes:❮
+set number
+set ruler
+set scrolloff=3
+set shiftwidth=2
+set showcmd
+set smartcase
+set softtabstop=2
+set tabstop=8
+set cursorline
+
+inoremap jj <ESC>
