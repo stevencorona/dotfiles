@@ -1,2 +1,2 @@
-export RBENV_ROOT=/usr/local/var/rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
